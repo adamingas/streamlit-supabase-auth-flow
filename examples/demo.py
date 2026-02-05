@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 auth = SupabaseAuth(
-    supabase_url=os.getenv("SUPABASE_URL"), 
+    supabase_url=os.getenv("SUPABASE_URL"),
     supabase_key=os.getenv("SUPABASE_KEY"),
     redirect_uri=os.getenv("REDIRECT_URI", "http://localhost:8501"),
 )
